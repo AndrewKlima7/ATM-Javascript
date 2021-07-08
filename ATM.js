@@ -206,7 +206,6 @@ if(response === "1"){
     console.log("Not a valid response try again")
     x =true;
 }
-}
 
 let y =true;
 while(y === true){
@@ -227,5 +226,8 @@ let input = prompt("would you like to (1)register another account, (2)login, or 
                 y = true;
             }
         }
+}
+
+
     
 
